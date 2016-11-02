@@ -1,5 +1,5 @@
 //Declare the Color Object with our new keyword below here.
-
+const color object = new object();
 
 /*
 ** rgb is an array that hold the color values.
@@ -11,11 +11,11 @@ Color.isColor = function(rgb){
   //each color must be between 0 and 255. Also can be equal.
 
   let redworks = (rgb[0] >= 0) && (rgb[0] <= 255);
-  let
-  let
+  let greenworks = (rgb[1] >= 0) && (rgb[0] <= 255);
+  let blueworks = (rgb[2] >= 0) && (rgb[0] <= 255);
 
   if(redworks && greenworks && blueworks){
-    return true;
+    return true;re
   }
   else{
     return false;
